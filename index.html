@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebecca - Take Home Exam - 2024/2025 - Semester 2</title>  
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body style="background-color: #eef6fa;">
+      <!-- lets the user choose like which religion or whatever idk -->
+    <div class="oneone" style="display: block; text-align: center; width: 75%; margin:auto;">
+      <h2 class="one">Choose</h2>
+    <p class="two">nyam</p>
+
+<button onclick="toggleVisibility()">Catholicism</button>
+
+<script>
+  function toggleVisibility() {
+    var twotwo = document.querySelector('.twotwo');      
+    if (twotwo.style.display === "none") {
+    twotwo.style.display = "block";
+    } else {
+    twotwo.style.display = "none";
+    }
+
+    var one = document.querySelector('.oneone');      
+    if (one.style.display === "block") {
+    one.style.display = "none";
+    } else {
+    one.style.display = "block";
+    }
+  }
+</script>
+
+<button onclick="toggleVisibility1()">Christianity</button>
+
+    <script>
+     function toggleVisibility1() {
+    var threethree = document.querySelector('.threethree');      
+    if (threethree.style.display === "none") {
+    threethree.style.display = "block";
+    } else {
+    threethree.style.display = "none";
+    }
+
+    var one = document.querySelector('.oneone');      
+    if (one.style.display === "block") {
+    one.style.display = "none";
+    } else {
+    one.style.display = "block";
+    }
+  }
+    </script>
+  </div>
+
+  <!-- Religion 1: Catholicism-->
+  <div class="twotwo" style="display: none; text-align: center; width: 75%; margin:auto;">
+    <h2 class="one">Catholicism</h2>
+    <p class="two">A sacrament is a religious rite that is important to the members of that religion. In Catholicism, there are 7 sacraments: Baptism, Eucharist, Confirmation, Reconciliation, Anointing of the Sick, Marriage, and Holy Orders.</p>
+    <button onclick="showText1()">Text Story 1</button>
+    <p id="text1"></p>
+    <button onclick="showText1pt2()">Text Story 1 part 2</button>
+    <p id="text2"></p>
+    <button onclick="showText1pt3()">Text Story 1 part 3</button>
+    <p id="text3"></p>
+    <button onclick="showText1pt4()">Text Story 1 part 4</button>
+    <p id="text4"></p>
+    <img src="image1.jpg" width="100%">
+    <br>
+    <button onclick="showText2()">Text Story 2</button>
+    <p id="text5"></p>
+    <button onclick="showText2pt2()">Text Story 2 part 2</button>
+    <p id="text6"></p>
+    <button onclick="showText2pt3()">Text Story 2 part 3</button>
+    <p id="text7"></p>
+    <button onclick="showText2pt4()">Text Story 2 part 4</button>
+    <p id="text8"></p>
+    <br>
+    <button onclick="showVideo1()">Video Story 1</button>
+    <p id="video1"></p>
+    <p id="text9"></p>
+    <button onclick="showVideo2()">Video Story 2</button>
+    <p id="video2"></p>
+    <p id="text10"></p>
+
+    <script>
+      function showText1() {
+        document.getElementById("text1").innerHTML = "<p class='three'>Ayu was born into a neighborhood where poverty and crime was common. Ayu’s mother, Rina, had believed that God had forgotten her and it caused her to drift from the Church years earlier. However, something stirred in Rina’s heart when Ayu was born. It was a longing to reconnect with her faith.</p>";
+        
+      }    
+      </script>
+
+<script>
+  function showText1pt2() {
+    document.getElementById("text2").innerHTML = "<p class='three'>One Sunday, Rina gathered the courage to visit the local parish. She was welcomed warmly by Father Bayu. As they spoke, Rina admitted how far she felt from God. Father Bayu reminded her that the promise of a Baptism was the cleansing of original sin and a new beginning as a child of God. </p>";
+    
+   }    
+  </script>
+
+<script>
+  function showText1pt3() {
+    document.getElementById("text3").innerHTML = "<p class='three'>A month later, family and parishioners were gathered, and baby Ayu was baptized in the name of the Father, Son, and Holy Spirit. Rina felt tears stream down her face as the Holy water touched Ayu’s forehead, and that was when she realized that God had never forgotten her.</p>";
+    
+    }    
+  </script>
+
+<script>
+  function showText1pt4() {
+    document.getElementById("text4").innerHTML = "<p class='three'>Not only did the Sacrament mark Ayu's entry into the Church, but Rina's return as well. She began attending Mass, she joined a prayer group, and volunteered at the parish food pantry. Through the grace of Baptism, both the mother and child found their way home. </p>";
+    
+  }    
+  </script>
+
+<script>
+  function showText2() {
+    document.getElementById("text5").innerHTML = "<p class='three'>Amara is a retired teacher, she has served her community faithfully for years. However, due to her old age, an illness had struck her, and it left her weak and bedridden, which let quiet fears of death fill her heart.</p>";
+    }    
+  </script>
+
+<script>
+  function showText2pt2() {
+    document.getElementById("text6").innerHTML = "<p class='three'>Because of this, her daughter called the parish priest. Father Bayu arrived with holy oil to administer the Sacrament of the Anointing of the Sick. Father Bayu then gathered the family and spoke gently about God's mercy. He recalled James 5:14-15, which stated 'Is anyone among you sick? Let them call the elders of the church to pray over them and anoint them with oil in the name of the Lord.'</p>";
+    }    
+  </script>
+
+<script>
+  function showText2pt3() {
+    document.getElementById("text7").innerHTML = "<p class='three'>As the oil touched Amara's forehead and hands, a calm peace settled over her. Although her body remained weak, her spirit grew stronger. In the following days, her health improved slowly but surely, which allowed her to receive the Eucharist again and spend time with her grandchildren.</p>";
+    }    
+  </script>
+
+<script>
+  function showText2pt4() {
+    document.getElementById("text8").innerHTML = "<p class='three'>The Anointing of the Sick brought Amara more than just physical comfort, it also offered her spiritual strength, forgiveness, and courage. It was a powerful reminder for Amara and her family that God's grace will reach us in our deepest need.</p>";
+  }    
+  </script>
+
+<script>
+  function showVideo1() {
+    document.getElementById("video1").innerHTML = "<iframe class='three' type=\"text/html\" width='420' height='345' src='https://www.youtube.com/embed/AvSYkniFdoQ'></iframe>";
+    document.getElementById("text9").innerHTML = "<p class='three'>credit: 'Peppy Productions: History Content'</p>";
+  }
+  </script>
+
+<script>
+  function showVideo2() {
+    document.getElementById("video2").innerHTML = "<iframe class='three' type=\"text/html\" width='420' height='345' src='https://www.youtube.com/embed/qmfSwi3ZKH4'></iframe>";
+    document.getElementById("text10").innerHTML = "<p class='three'>credit: 'ODB Films'</p>";
+  }
+  </script>
+
+<button onclick="toggleVisibility2()">Home</button>
+
+<script>
+  function toggleVisibility2() {
+    var twotwo = document.querySelector('.twotwo');      
+    if (twotwo.style.display === "block") {
+    twotwo.style.display = "none";
+    } else {
+    twotwo.style.display = "none";
+    }
+
+    var threethree = document.querySelector('.threethree');      
+    if (threethree.style.display === "block") {
+    threethree.style.display = "none";
+    } else {
+    threethree.style.display = "none";
+    }
+
+    var one = document.querySelector('.oneone');      
+    if (one.style.display === "block") {
+    one.style.display = "none";
+    } else {
+    one.style.display = "block";
+    }
+  }
+</script>
+    </div>
+
+  <!-- Religion 2: Christianity-->
+  <div class="threethree" style="display: none; text-align: center; width: 75%; margin:auto;">
+    <h2 class="one">Christianity</h2>
+    <p class="two">There may be times where the most ethical decision is hard to tell. However, the correct decision isn’t always the one that seems the most logical.</p>
+    <br>
+    <button onclick="showText3()">Text story 1</button>
+    <p id="text11"></p>
+    <button onclick="showText3pt2()">Text Story 1 part 2</button>
+    <p id="text12"></p>
+    <button onclick="showText3pt3()">Text Story 1 part 3</button>
+    <p id="text13"></p>
+    <img src="image2.jpg" width="100%">
+    <br>
+    <button onclick="showText4()">Text story 2</button>
+    <p id="text14"></p>
+    <button onclick="showText4pt2()">Text Story 2 part 2</button>
+    <p id="text15"></p>
+    <button onclick="showText4pt3()">Text Story 2 part 3</button>
+    <p id="text16"></p>
+    <button onclick="showText4pt4()">Text Story 2 part 4</button>
+    <p id="text17"></p>
+    <br>
+    <button onclick="showVideo3()">Video Story 1</button>
+    <p id="video3"></p>
+    <p id="text18"></p>
+    <br>
+    <button onclick="showVideo4()">Video Story 2</button>
+    <p id="video4"></p>
+    <p id="text19"></p>
+
+    <script>
+    function showText3() {
+      document.getElementById("text11").innerHTML = "<p class='three'>Melisa is a devout woman who was known for her adherence to the words of the Bible. She had found a disheveled traveler collapsed on her doorstep during the harsh downpour. Her logic spoke to her. She knew that this was a stranger who was possibly unclean and/or dangerous. Besides, her small home was already full & her resources were scarce.</p>";
+      }
+    </script>
+
+<script>
+  function showText3pt2() {
+    document.getElementById("text12").innerHTML = "<p class='three'>However, something else stirred within her, her deep-seeded understanding of Jesus’ words about welcoming the stranger and about seeing the face of Christ in the vulnerable. This wasn’t a logical calculation of risk and reward; it was a visceral pull towards compassion. Melisa ignored the anxieties in her mind and helped the man inside. She cleaned his wounds and shared her meager meal, and offered the man a dry corner to rest. </p>";
+    }
+  </script>
+
+<script>
+  function showText3pt3() {
+    document.getElementById("text13").innerHTML = "<p class='three'>The next morning, the traveler healed and revealed himself to be a respected missionary who had been robbed and left for dead. His presence brought unexpected blessings and strengthened the faith of the Christian community. Melisa then realized, it was better to make ethical choices about opening your heart to the call of love and mercy, even when it defied earthly logic, than about avoiding discomfort or adhering to strict rules.</p>";
+  }
+  </script>
+
+<script>
+  function showText4() {
+    document.getElementById("text14").innerHTML = "<p class='three'>Jaya is a young man who was struggling to provide for his family, and he discovered a hidden clause in his late grandfather’s will. This clause stipulated that a significant portion of the inheritance would go to a distant relative who was known for his past transgressions and estrangement from the family.</p>";
+    }    
+  </script>
+
+<script>
+  function showText4pt2() {
+    document.getElementById("text15").innerHTML = "<p class='three'>Jaya, logically, should’ve and could’ve contested the clause. The money would alleviate his family’s hardship. Many of the people in his community also advised him to fight for what was rightfully his, in a worldly sense.</p>";
+    }    
+  </script>
+
+<script>
+  function showText4pt3() {
+    document.getElementById("text16").innerHTML = "<p class='three'>However, Jaya reflected on the teachings he had absorbed since childhood, the teachings that had an emphasis on forgiveness, reconciliation, and selfless love. He remembered the parable of the prodigal son and the constant call to extend grace, even to those who seemed undeserving. </p>";
+    }    
+  </script>
+
+<script>
+  function showText4pt4() {
+    document.getElementById("text17").innerHTML = "<p class='three'>Jaya thought about this and went against the advice of many and sought out his estranged relative. He didn’t accuse or demand, but he instead offered a hand of reconciliation. Although the encounter was difficult, it eventually led to healing and a renewed sense of family. Jaya and his family gained something far more valuable than money, they gained the peace that comes from choosing a path of forgiveness and love, the path that transcended mere logic and mirrored the heart of their faith.</p>";
+  }    
+  </script>
+
+    <script>
+    function showVideo3() {
+      document.getElementById("video3").innerHTML = "<iframe class='three' type=\"text/html\" width='480' height='360' src='https://www.youtube.com/embed/2yHGDs2Dde4'></iframe>";
+    document.getElementById("text18").innerHTML = "<p class='three'>credit: 'Ezra Institute for Contemporary Christianity'</p>";
+    }    
+    </script>
+
+<script>
+  function showVideo4() {
+    document.getElementById("video4").innerHTML = "<iframe class='three' type=\"text/html\" width='480' height='360' src='https://www.youtube.com/embed/8NijZWE'></iframe>";
+  document.getElementById("text19").innerHTML = "<p class='three'>credit: 'Marcelo Bulk'</p>";
+  }    
+  </script>
+
+<button onclick="toggleVisibility2()">Home</button>
+
+<script>
+  function toggleVisibility2() {
+    var twotwo = document.querySelector('.twotwo');      
+    if (twotwo.style.display === "block") {
+    twotwo.style.display = "none";
+    } else {
+    twotwo.style.display = "none";
+    }
+
+    var threethree = document.querySelector('.threethree');      
+    if (threethree.style.display === "block") {
+    threethree.style.display = "none";
+    } else {
+    threethree.style.display = "none";
+    }
+
+    var one = document.querySelector('.oneone');      
+    if (one.style.display === "block") {
+    one.style.display = "none";
+    } else {
+    one.style.display = "block";
+    }
+  }
+  </script>
+  </div>
+</body>
+</html>

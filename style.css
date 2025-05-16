@@ -1,0 +1,62 @@
+.one{
+    margin:20px 0px 0px 0px;
+    color: #1D3557;
+    text-align: center;
+    font-size: 30px;
+ }
+  .two {
+    margin:0px 0px 10px 0px;
+    color: #1D3557;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 17.5px;
+  }
+ 
+  .three {
+   margin:0px 0px 10px 0px;
+   color: #1e4e6b;
+   text-align: center;
+   font-size: 17.5px;
+   padding-right: 65px;
+    padding-left: 65px;
+   }
+ 
+   .oneone{
+     background-color: #a8cddc;
+     border: none;
+     border-radius: 25px;
+     margin-top: 20px;
+     padding: 30px;
+     background-size: 75% 100%
+   }
+ 
+   .twotwo{
+     background-color: #a8cddc;
+     border: none;
+     border-radius: 25px;
+     margin-top: 20px;
+     padding: 30px;
+   }
+ 
+   .threethree{
+     background-color: #a8cddc;
+     border: none;
+     border-radius: 25px;
+     margin-top: 20px;
+     padding: 30px;
+   }
+ 
+  button {
+   background-color:white;
+   border: 2px solid #1D3557;
+   color: #1D3557;
+   font-size: 15px;
+   border-radius: 8px;
+   padding: 5px 8px;
+ }
+ 
+ button:hover {
+   background-color: #1D3557;
+   color: white;
+ }
